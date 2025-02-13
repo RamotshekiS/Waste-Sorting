@@ -9,5 +9,5 @@ public interface IWasteCategoryService {
     WasteCategory getWasteCategoryById(Long id);
     List<WasteCategory> getAllWasteCategory();
     void deleteWasteById(Long id);
-    WasteCategory saveWasteCategory(WasteCategory category);
+    WasteCategory createWasteCategory(WasteCategory category);
 }
